@@ -4,6 +4,7 @@ import Header from "./components/Header/Header";
 import Shop from "./components/Shop/Shop";
 import Home from "./components/Home/Home";
 import OrderReview from "./components/OrderReview/OrderReview";
+import ManageInventory from "./components/ManageInventory/ManageInventory";
 
 function App() {
   return (
@@ -12,7 +13,14 @@ function App() {
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
         <Route path="/shop" element={<Shop></Shop>}></Route>
-        <Route path="orderReview" element={<OrderReview></OrderReview>}></Route>
+        <Route
+          path="/orderReview"
+          element={<OrderReview></OrderReview>}
+        ></Route>
+        <Route
+          path="/manageInventory"
+          element={<ManageInventory></ManageInventory>}
+        ></Route>
       </Routes>
     </div>
   );

@@ -1,0 +1,12 @@
+.products-item-container {
+  margin: 0 auto;
+}
+.cheekOut-button {
+  width: 100%;
+  padding: 15px;
+  color: white;
+  background: #ff9900;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
